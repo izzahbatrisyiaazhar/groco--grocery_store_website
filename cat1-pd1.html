@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetables - Product Details | Grocery Store Malaysia | Best Grocer Parit Raja, Johor</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css">
+
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> groco </a>
+
+    <nav class="navbar">
+        <div>
+            <a href="index.html">home</a>
+        </div>
+        <div>
+            <a href="#features">features</a>
+        </div>
+        <div>
+            <a href="#products">products</a>
+        </div>
+        <div>
+            <a class="dropdown" data-id="category">categories <i class="fas fa-caret-down"></i></a> 
+            <div class="nav-dropdown" id="category-dropdown">
+                <div class="dropdown-item">
+                    <a href="cat-1.html">Vegetables</a>
+                </div>
+                <div class="dropdown-item">
+                    <a href="cat-2.html">Fresh Fruits</a>
+                </div>
+                <div class="dropdown-item">
+                    <a href="cat-3.html">Fresh Meat</a>
+                </div>
+                <div class="dropdown-item">
+                    <a href="cat-4.html">Seafoods</a>
+                </div>
+                <div class="dropdown-item">
+                    <a href="cat-5.html">Dairy Products</a>
+                </div>
+                <div class="dropdown-item">
+                    <a href="#">Baked Goods</a>
+                </div>
+                <div class="dropdown-item">
+                    <a href="#">Condiments & Spices</a>
+                </div>
+                <div class="dropdown-item">
+                    <a href="#">Pasta, Rice & Cereal</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href="#review">review</a>
+        </div>
+        <div>
+            <a href="#blogs">blogs</a>
+        </div>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-1.png" alt="">
+            <div class="content">
+                <h3>watermelon</h3>
+                <span class="price">RM 11.50/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-2.png" alt="">
+            <div class="content">
+                <h3>red onion</h3>
+                <span class="price">RM 4.95/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-3.png" alt="">
+            <div class="content">
+                <h3>chicken</h3>
+                <span class="price">RM 20.00/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : RM 36.45/- </div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+
+<!-- details section starts  -->
+
+<section class="details" id="details">
+
+    <h1 class="heading"> Product <span>Details</span> </h1>
+
+    <div class="box-container">
+
+        <div class="left-col">
+            <div class="box top-img">
+                <img src="image/broccoli-1.png" alt="">
+            </div>
+            <div class="box sm-img">
+                <img src="image/broccoli-2.png" alt="">
+            </div>
+            <div class="box sm-img1">
+                <img src="image/broccoli-3.png" alt="">
+            </div>
+        </div>
+
+       
+        <div class="box box-detail">
+            <h3 class="text-left">Fresh Broccoli +/-1kg</h3>
+            <div class="text-left align-inline">
+                <fieldset class="rating">
+                    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="5 stars"></label>
+                    <input type="radio" id="star4half" name="rating" value="4 and a half" checked /><label class="half" for="star4half" title="4.5 stars"></label>
+                    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="4 stars"></label>
+                    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="3.5 stars"></label>
+                    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="3 stars"></label>
+                    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="2.5 stars"></label>
+                    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="2 stars"></label>
+                    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="1.5 stars"></label>
+                    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="1 star"></label>
+                    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="0.5 stars"></label>
+                </fieldset>
+                <p class="rating-label">4.7 (21)</p>
+            </div>
+            <div>
+                <p class="price pb-0">RM 4.50</p>
+                <p class="title pt-0">Details: </p>
+                <p class="content">Packed with a good dose of protein, fibre, tons of vitamins and cancer fighting selenium, broccoli belongs to the same family as kale, cabbage and cauliflower. Best enjoyed stir fried, steamed or microwaved, as boiling broccoli would lose its nutrients.</p>
+                <!--<p class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>-->
+                <p class="content">Availability : <span class="text-success">In Stock</span></p>
+                <p class="content pt-0">Shipping Area : Within Parit Raja</p>
+                <p class="content pt-0">Shipping Time : 3 - 6 Business Days</p>
+                <p class="content pt-0">Shipping Fee : Free</p>
+            </div>
+            <div class="btn-row">
+                <input type="number" class="number-input" value="1" />
+                <a href="#" class="btn btn-addcart">Add Cart</a>
+                <a href="#" class="btn btn-buy">Buy Now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- details section ends -->
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> groco <i class="fas fa-shopping-basket"></i> </h3>
+            <p>The best way to shop for groceries in Malaysia. Convenient, Quick, and Simple!</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +60 18-984-1700 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +60 13-787-2801 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> ai200087@siswa.uthm.edu.my </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> parit raja, johor - 86400 </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#features" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+            <a href="#products" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="#categories" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="#review" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="#blogs" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="image/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> modified by <span> izzah batrisyia</span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
